@@ -15,6 +15,10 @@ class Bear
 
   def eat_fish(fish)
     @stomach << fish
+  end
+
+  def roar
+    return 'Roar'
 
   end
 
